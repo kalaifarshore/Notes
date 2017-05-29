@@ -1,0 +1,25 @@
+//
+//  Note-Prefix.pch
+//  Note
+//
+//  Created by dev11 on 4/5/17.
+//  Copyright © 2017 dev11. All rights reserved.
+//
+
+#ifndef Note_Prefix_pch
+#define Note_Prefix_pch
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import "AppDelegate.h"
+#import "AppConstants.h"
+#import "DataStore.h"
+
+
+#endif
+
+#endif /* Note_Prefix_pch */

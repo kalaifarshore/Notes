@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16D32" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Files" representedClassName="Files" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="data" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Text" inverseName="singlefile" inverseEntity="Text" syncable="YES"/>
+        <relationship name="file" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Files" inverseName="folder" inverseEntity="Files" syncable="YES"/>
+        <relationship name="folder" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Files" inverseName="file" inverseEntity="Files" syncable="YES"/>
+    </entity>
+    <entity name="Text" representedClassName="Text" syncable="YES">
+        <attribute name="data" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="singlefile" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Files" inverseName="data" inverseEntity="Files" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Files" positionX="-144" positionY="-187" width="128" height="118"/>
+        <element name="Text" positionX="-54" positionY="9" width="128" height="120"/>
+    </elements>
+</model>
