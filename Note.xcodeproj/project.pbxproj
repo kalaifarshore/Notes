@@ -14,7 +14,6 @@
 		EB33EEF51EA0E38E00C60B99 /* ContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB33EEF41EA0E38E00C60B99 /* ContentModel.m */; };
 		EB33EEF81EA0E3AF00C60B99 /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB33EEF71EA0E3AF00C60B99 /* ContentView.m */; };
 		EB33EEFB1EA0E3D100C60B99 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB33EEFA1EA0E3D100C60B99 /* ContentViewController.m */; };
-		EB4144D31ECB1A02006384C2 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4144D11ECB1A02006384C2 /* LocationViewController.m */; };
 		EB4144D41ECB1A02006384C2 /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB4144D21ECB1A02006384C2 /* LocationViewController.xib */; };
 		EB4144D71ECB1A1E006384C2 /* LocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4144D61ECB1A1E006384C2 /* LocationView.m */; };
 		EB4144DB1ECB3E50006384C2 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4144D91ECB3E50006384C2 /* LocalAuthentication.framework */; };
@@ -26,6 +25,7 @@
 		EB83A9A01E929006005C39B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB83A99F1E929006005C39B7 /* Assets.xcassets */; };
 		EB83A9AE1E929007005C39B7 /* NoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB83A9AD1E929007005C39B7 /* NoteTests.m */; };
 		EB83A9B91E929007005C39B7 /* NoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB83A9B81E929007005C39B7 /* NoteUITests.m */; };
+		EB9279211EDC1F8C00A59864 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9279201EDC1F8C00A59864 /* LocationViewController.m */; };
 		EBC273B31E94F8D10062616E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC273B21E94F8D10062616E /* AppDelegate.m */; };
 		EBC273B71E94F9170062616E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC273B51E94F9170062616E /* LaunchScreen.storyboard */; };
 		EBC273B81E94F9170062616E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC273B61E94F9170062616E /* Main.storyboard */; };
@@ -75,7 +75,6 @@
 		EB33EEF91EA0E3D100C60B99 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
 		EB33EEFA1EA0E3D100C60B99 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 		EB4144D01ECB1A02006384C2 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
-		EB4144D11ECB1A02006384C2 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
 		EB4144D21ECB1A02006384C2 /* LocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationViewController.xib; sourceTree = "<group>"; };
 		EB4144D51ECB1A1E006384C2 /* LocationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationView.h; sourceTree = "<group>"; };
 		EB4144D61ECB1A1E006384C2 /* LocationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationView.m; sourceTree = "<group>"; };
@@ -95,6 +94,7 @@
 		EB83A9B41E929007005C39B7 /* NoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB83A9B81E929007005C39B7 /* NoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteUITests.m; sourceTree = "<group>"; };
 		EB83A9BA1E929007005C39B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB9279201EDC1F8C00A59864 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
 		EBC273B11E94F8D10062616E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EBC273B21E94F8D10062616E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EBC273B51E94F9170062616E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -217,7 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				EB4144D01ECB1A02006384C2 /* LocationViewController.h */,
-				EB4144D11ECB1A02006384C2 /* LocationViewController.m */,
+				EB9279201EDC1F8C00A59864 /* LocationViewController.m */,
 				EB4144D21ECB1A02006384C2 /* LocationViewController.xib */,
 			);
 			path = Location;
@@ -596,7 +596,6 @@
 				EBF9F1D31EA20DC100111652 /* NoteAttachment.m in Sources */,
 				EBC273BB1E9503F50062616E /* DataStore.m in Sources */,
 				EB7D4DEC1ECC82D70010CF5B /* SearchTableCell.m in Sources */,
-				EB4144D31ECB1A02006384C2 /* LocationViewController.m in Sources */,
 				EB4144D71ECB1A1E006384C2 /* LocationView.m in Sources */,
 				EBEC55BF1E9E2B2100BEED9D /* Files+CoreDataProperties.m in Sources */,
 				EB33EEF81EA0E3AF00C60B99 /* ContentView.m in Sources */,
@@ -609,6 +608,7 @@
 				EB83A9921E929006005C39B7 /* main.m in Sources */,
 				EB33EEEF1EA0E1CA00C60B99 /* FilesModel.m in Sources */,
 				EB33EEEB1EA0E19700C60B99 /* FilesViewController.m in Sources */,
+				EB9279211EDC1F8C00A59864 /* LocationViewController.m in Sources */,
 				EB33EEFB1EA0E3D100C60B99 /* ContentViewController.m in Sources */,
 				EBC273B31E94F8D10062616E /* AppDelegate.m in Sources */,
 				EBEC55C71E9E390000BEED9D /* FileCell.m in Sources */,
